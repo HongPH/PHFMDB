@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PHFMDB"
   spec.version      = "1.0.1"
-  spec.summary      = "A short description of PHFMDB."
+  spec.summary      = "A short description."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -64,8 +64,8 @@ it is just a test for PFMDBFramework
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "8.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ it is just a test for PFMDBFramework
   #  Not including the public_header_files will make all headers public.
   #
 
-spec.source_files  = "PHFMDBLib/PFMDBFramework.framework/Headers/*.{h}"
-spec.vendored_frameworks = "PHFMDBLib/PFMDBFramework.framework"
+    spec.source_files  = "PHFMDBLib/PFMDBFramework.framework/Headers/*.{h}"
+    spec.vendored_frameworks = "PHFMDBLib/PFMDBFramework.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -117,7 +117,7 @@ spec.vendored_frameworks = "PHFMDBLib/PFMDBFramework.framework"
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "UIKit"
+   spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
