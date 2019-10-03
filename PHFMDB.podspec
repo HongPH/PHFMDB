@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PFMDBLib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint PHFMDB.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,16 +15,17 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PFMDBLib"
+  spec.name         = "PHFMDB"
   spec.version      = "1.0.1"
-  spec.summary      = "A short description of PFMDBLib."
+  spec.summary      = "A short description of PHFMDB."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC it is just a test for PFMDBFramework
+  spec.description  = <<-DESC
+it is just a test for PFMDBFramework
                    DESC
 
   spec.homepage     = "https://github.com/HongPH/PHFMDB"
@@ -90,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-    spec.source_files  = "PFMDBLib/PFMDBFramework.framework/Headers/*.{h}"
-    spec.vendored_frameworks = "PFMDBLib/PFMDBFramework.framework"
+spec.source_files  = "PHFMDBLib/PFMDBFramework.framework/Headers/*.{h}"
+spec.vendored_frameworks = "PHFMDBLib/PFMDBFramework.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -116,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.framework  = "UIKit"
+  # spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
