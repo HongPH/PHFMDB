@@ -1,0 +1,6 @@
+framework module PFMDBFramework {
+  umbrella header "PFMDBFramework.h"
+
+  export *
+  module * { export * }
+}
