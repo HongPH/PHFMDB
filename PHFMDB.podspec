@@ -91,8 +91,8 @@ it is just a test for PFMDBFramework
   #  Not including the public_header_files will make all headers public.
   #
 
-    spec.source_files  = "PHFMDBLib/PFMDBFramework.framework/Headers/*.{h}"
-    spec.vendored_frameworks = "PHFMDBLib/PFMDBFramework.framework"
+    spec.source_files  = "PFMDBFramework.framework/Headers/*.{h}"
+    spec.vendored_frameworks = "PFMDBFramework.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
